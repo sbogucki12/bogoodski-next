@@ -1,8 +1,17 @@
+import Head from "next/head";
+import Home from "../components/Home";
+
 function index() {
-    return(
-        <main>
-            <h1>Test</h1>
-        </main>
+    return (
+        <>
+            <Head>
+                <title>BOGOODSKI</title>
+            </Head>
+            <main>
+                <Home />
+            </main>
+        </>
+
     )
 }
 
