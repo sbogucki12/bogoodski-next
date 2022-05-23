@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import Head from 'next/head';
+import NavBar from '../components/NavBar';
 
 const App = ({Component, pageProps}) => 
 {
@@ -11,6 +12,7 @@ const App = ({Component, pageProps}) =>
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
                 <link rel="manifest" href="/favicon/site.webmanifest" />
             </Head>
+            <NavBar />
             <header>
                 <h3>
                     Header

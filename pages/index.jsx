@@ -1,12 +1,10 @@
-import Head from "next/head";
 import Home from "../components/Home";
+
+// Don't change this component.  
 
 function index() {
     return (
         <>
-            <Head>
-                <title>BOGOODSKI</title>
-            </Head>
             <main>
                 <Home />
             </main>

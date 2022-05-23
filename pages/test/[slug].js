@@ -2,14 +2,14 @@ export async function getStaticPaths() {
     return {
         paths: [
             {
-                params: { slug: 'test1'}
+                params: { slug: 'test'}
             }
         ], fallback: false,
     }
 };
 
-export async function getStaticProps() {
-
+export async function getStaticProps({params: {slug}}) {
+    console.log(`context from getStaticProps: ${slug}`);
     return {
         props: {
             title: "test"

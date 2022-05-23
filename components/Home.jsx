@@ -1,6 +1,14 @@
+import Head from "next/head"
+
 const Home = () => {
     return (
-        <div>
+        <>
+            <Head>
+                <title>BOGOODSKI | HOME</title>
+            </Head>
+            <h1>
+                Index
+            </h1>
             <div>
                 <span>ICON</span><span><button>Professional</button></span>
             </div>
@@ -10,7 +18,7 @@ const Home = () => {
             <div>
                 <span>ICON</span><span><button>Fitness</button></span>
             </div>
-        </div>
+        </>
     )
 };
 
