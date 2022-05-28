@@ -1,16 +1,21 @@
-import Home from "../components/Home";
-
-// Don't change this component.  
-
-function index() {
+const Home = () => {
     return (
         <>
-            <main>
-                <Home />
-            </main>
+            <h1>
+                Index
+            </h1>
+            <div>
+                <span>ICON</span><span><button>Professional</button></span>
+            </div>
+            <div>
+                <span>ICON</span><span><button>Music</button></span>
+            </div>
+            <div>
+                <span>ICON</span><span><button>Fitness</button></span>
+            </div>
         </>
 
     )
 }
 
-export default index; 
+export default Home;

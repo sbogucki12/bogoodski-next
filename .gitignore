@@ -1,2 +1,28 @@
 /.next/
 /node_modules/
+/coverage
+/out/
+/build
+.DS_Store
+*.pem
+
+node_modules
+.next
+package-lock.json
+build/Release
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
